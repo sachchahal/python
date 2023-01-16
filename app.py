@@ -201,9 +201,7 @@
 
 # Exercise
 
-jkj
-jkj
-/
+
 # Fizz_buzz algotrithm.
 
 # def fizzbuzz(input):
@@ -251,3 +249,60 @@ def fizzbuzz(input):
 
 
 print(fizzbuzz(9))
+
+
+
+Python 
+
+#letters = ["a", "b", "c"]
+#print(letters)
+
+#numbers = list(range(20))
+#print(numbers)
+
+#first = numbers[0]
+#second = numbers [1]
+
+#list unpacking 
+
+#numbers = [1,2,3]
+#first, second, third = numbers
+#print(second)
+
+#unpacking tuple
+#letters = ["a", "b", "c"]
+
+#for index, letter in enumerate(letters):
+ #   print(index, letter)
+  
+''' letters = ["a", "b", "c"]
+#Add / append
+letters.append("d")
+letters.insert(0, "-")
+#remote
+#letters.pop(0)
+#letters.remove("c")
+#del letters[0:3]
+
+print(letters) '''
+
+# numbers = [3, 4, 7, 2, 9]
+# # numbers.sort()
+# numbers.sort(reverse=True)
+# print(numbers)
+#
+
+#SORTING LIST
+items = [
+    ("Product1", 10),
+    ("Product2", 20),
+    ("Product3", 30),
+]
+#prices = []
+# for item in items:
+#     prices.append(item[1])
+#OR use map function
+prices = list(map(lambda item: item[1], items))
+prices.sort(reverse=True)
+print(prices)
+#print(items)
